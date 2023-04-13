@@ -4,47 +4,56 @@
   padding: 0
 }
 body{
-  margin:0;
+  margin:auto;
   padding: 0;
-  background-image: url("./../../../assets/images/inicioFondo.jpg");
-  background-position: center;
-  background-size: cover;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  vertical-align: middle;
 
 }
 
 .title{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-image: url("./../../../assets/images/inicioFondo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: aquamarine;
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
   text-align: center;
   color: white;
-
-  z-index: 1;
   justify-content: center;
-  display: flex;
+  margin: auto;
   flex-direction: column;
+  vertical-align: middle;
 }
 
 /* CSS para los títulos en la sección .title */
 .title h1 {
-  font-size: 6rem;
+  margin: 0;
+  font-weight: 600;
+  font-size: 10dvh;
   margin-bottom: 0.5rem;
-  background-color: red;
+  color: rgba(0, 0, 0, 0.849);
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  height: 10dvh;
+
 
 }
 
 .title h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.849);
 }
 
 .title p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.849);
 }
 
 /* CSS para la animación de entrada */
